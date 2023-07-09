@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /
+
+ErrorDocument 404 /404.php
+ErrorDocument 500 /500.php
+# or map them to one error document:
+# ErrorDocument 404 /pages/errors/error_redirect.php
+# ErrorDocument 500 /pages/errors/error_redirect.php
+
+RewriteEngine On
+Options All -Indexes

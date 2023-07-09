@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $('.toggle').click(function(){
+        $('.toggle').toggleClass('active');
+        $('span').toggleClass('active');
+        $('.overlay').toggleClass('active');
+        $('.menu').toggleClass('active');
+        $('body').toggleClass('noscroll');
+    });
+});

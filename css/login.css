@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.login-container {
+    position: relative;
+    top: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  
+  .login-container .error {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 86%;
+    padding: 5px;
+  }
+  
+  .login-container .error h4 {
+    color: #db9e4d;
+  }
+  
+  .login-container .mid {
+    background: #197272;
+    background: -webkit-gradient(linear, left top, right top, from(#197272), color-stop(#1b5f7e), to(#3582ca));
+    background: linear-gradient(to right, #197272, #1b5f7e, #3582ca);
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px;
+  }
+  
+  .login-container .mid .left {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .login-container .mid .left .img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    top: 12%;
+  }
+  
+  .login-container .mid .left .img img {
+    width: 200px;
+    height: 200px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  
+  .login-container .mid .left .baslik {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    top: 12%;
+  }
+  
+  .login-container .mid .left .baslik h2 {
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+            color: #fff
+  }
+  
+  .login-container .mid .login {
+    position: relative;
+    top: 15%;
+  }
+  
+  .login-container .mid .right {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .login-container .mid .right .row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px;
+    position: relative;
+    top: 22%;
+    left: 45%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .login-container .mid .right .row input[type=text], .login-container .mid .right .row input[type=password], .login-container .mid .right .row input[type=email] {
+    width: 250px;
+    height: 35px;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    padding: 2px;
+    text-indent: 5px;
+    font-weight: 500;
+  }
+  
+  .login-container .mid .right .row input[type=text]:not(:placeholder-shown), .login-container .mid .right .row input[type=password]:not(:placeholder-shown), .login-container .mid .right .row input[type=email]:not(:placeholder-shown) {
+    border-bottom: 2px solid #67cc55;
+    -webkit-transition: .2s ease-in;
+    transition: .2s ease-in;
+  }
+  
+  .login-container .mid .right .row input[type=text]:placeholder-shown, .login-container .mid .right .row input[type=password]:placeholder-shown, .login-container .mid .right .row input[type=email]:placeholder-shown {
+    border-bottom: 1px solid #fff;
+    font-weight: 500;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out;
+  }
+  
+  .login-container .mid .right .row input[type=text]::-webkit-input-placeholder, .login-container .mid .right .row input[type=password]::-webkit-input-placeholder, .login-container .mid .right .row input[type=email]::-webkit-input-placeholder {
+    font-size: 16px;
+    color: #fff;
+    text-indent: 5px;
+    opacity: .5;
+  }
+  
+  .login-container .mid .right .row input[type=text]:-ms-input-placeholder, .login-container .mid .right .row input[type=password]:-ms-input-placeholder, .login-container .mid .right .row input[type=email]:-ms-input-placeholder {
+    font-size: 16px;
+    color: #fff;
+    text-indent: 5px;
+    opacity: .5;
+  }
+  
+  .login-container .mid .right .row input[type=text]::-ms-input-placeholder, .login-container .mid .right .row input[type=password]::-ms-input-placeholder, .login-container .mid .right .row input[type=email]::-ms-input-placeholder {
+    font-size: 16px;
+    color: #fff;
+    text-indent: 5px;
+    opacity: .5;
+  }
+  
+  .login-container .mid .right .row input[type=text]::placeholder, .login-container .mid .right .row input[type=password]::placeholder, .login-container .mid .right .row input[type=email]::placeholder {
+    font-size: 16px;
+    color: #fff;
+    text-indent: 5px;
+    opacity: .5;
+  }
+  
+  .login-container .mid .right .row .button1 {
+    width: 125px;
+    border: 0;
+    margin: 2px;
+    background: #ddd;
+    color: #0c9e31;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    letter-spacing: 1px;
+  }
+  
+  .login-container .mid .right .row .button1:hover {
+    color: #fff;
+    background: #0c9e31;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  
+  .login-container .mid .right .row .button2 {
+    width: 100px;
+    border: 0;
+    margin: 2px;
+    padding: 5px;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  @media (max-width: 821px) {
+    .login-container .mid .left {
+      width: 290px;
+    }
+    .login-container .mid .right {
+      width: 290px;
+    }
+  }
+  
+  @media (max-width: 599px) {
+    .login-container {
+      top: 0;
+      border-radius: 0;
+    }
+    .login-container .mid {
+      border-radius: 0;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+    }
+    .login-container .mid .left {
+      height: 250px;
+    }
+    .login-container .mid .right .row {
+      top: 20%;
+      left: 55%;
+    }
+  }
+  
+  .register-img {
+    background-image: url("../img/register.jpg") !important;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+  }
